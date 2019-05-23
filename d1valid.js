@@ -78,6 +78,8 @@ var main = new(function () {
     if (n.checkValidity() === false) {
       e.preventDefault();
       e.stopPropagation();
+      var f = d1.q(':invalid', 0, n);
+      if(f) f.focus();
     }
   }
 
