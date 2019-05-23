@@ -1,0 +1,23 @@
+{
+  "name": "d1valid",
+  "version": "1.0.0",
+  "description": "Custom form validation",
+  "main": "d1valid.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvvkor/d1valid"
+  },
+  "keywords": [
+    "custom",
+    "form",
+    "validation"
+  ],
+  "author": "Vadim Korolev <vadimkor@yandex.ru> (https://github.com/vvvkor)",
+  "license": "MIT",
+  "dependencies": {
+    "d1css": "^1.2"
+  }
+}
