@@ -1,7 +1,8 @@
 /*! d1valid https://github.com/vvvkor/d1valid */
 /* Custom form validation */
 
-/* todo: ajax validate, server validate, :valid, .js-process */
+/* todo: ajax validate, server validate, .js-process */
+/* todo: required lookup, wysiwyg, min/max date */
 
 //form, form.js-validate, input[data-hint]~.small
 if(typeof module !== "undefined") var d1 = require('d1css');
