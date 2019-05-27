@@ -15,6 +15,7 @@ npm install d1valid
 On page load call:
 ```
 d1valid.init(options);
+```
 
 ## Options
 
