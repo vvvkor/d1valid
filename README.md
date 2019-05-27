@@ -2,7 +2,7 @@
 
 Add-on for [d1](https://github.com/vvvkor/d1).  
 Custom form validation.  
-[Demo & docs](http://vadimkor.ru/projects/d1#valid)
+[Demo & docs](https://vvvkor.github.io/d1#valid)
 
 ## Install
 
