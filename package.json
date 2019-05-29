@@ -1,6 +1,6 @@
 {
   "name": "d1valid",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Custom form validation",
   "main": "d1valid.js",
   "scripts": {

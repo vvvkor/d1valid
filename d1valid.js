@@ -84,6 +84,8 @@ var main = new(function () {
       if(f) f.focus();
     }
   }
+  
+  d1.plug(this);
 
 })();
 
