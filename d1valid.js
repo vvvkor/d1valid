@@ -10,10 +10,12 @@ if(typeof module !== "undefined") var d1 = require('d1css');
 var main = new(function () {
 
   "use strict";
-
+  
+  this.name = 'valid';
+  
   this.opt = {
-    qsValidate: 'form', //form.js-validate
-    cUnhint: 'js-unhint'
+    qsValidate: 'form', // set custom text for browser tooltips
+    cUnhint: 'js-unhint' // turn off browser tooltips
   };
   
   /*
@@ -35,7 +37,8 @@ var main = new(function () {
   this.init = function (opt) {
     var i;
     for (i in opt) this.opt[i] = opt[i];
-    d1.b('', "input, textarea, select", "", this.initInput.bind(this));
+    var q = this.opt.qsValidate;
+    d1.b('', q + " input, " + q + " textarea, "+ q +" select", "", this.initInput.bind(this));
     d1.b('', "form."+this.opt.cUnhint, "", this.unhint.bind(this));
     d1.b('', "form."+this.opt.cUnhint, "submit", this.validateForm.bind(this));
   }
