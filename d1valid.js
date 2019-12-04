@@ -55,7 +55,7 @@ var main = new(function () {
   }
   
   this.unhint = function(n, e) {
-    n.setAttribute('novalidate',true);
+    n.setAttribute('novalidate', true);
   }
   
   this.validateForm = function(n, e) {
