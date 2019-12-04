@@ -22,7 +22,8 @@ var main = new(function () {
     var i;
     for (i in opt) this.opt[i] = opt[i];
     var q = this.opt.qsValidate;
-    d1.b('', q + " input, " + q + " textarea, "+ q +" select", "", this.initInput.bind(this));
+    var dh = "[data-hint]";
+    d1.b('', q + " input" + dh + ", " + q + " textarea" + dh + ", "+ q +" select" + dh, "", this.initInput.bind(this));
     d1.b('', "form."+this.opt.cUnhint, "", this.unhint.bind(this));
     d1.b('', "form."+this.opt.cLiveVal, "", this.validateForm.bind(this));
     d1.b('', "form."+this.opt.cUnhint, "submit", this.validateForm.bind(this));
